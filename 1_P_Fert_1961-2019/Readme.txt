@@ -20,19 +20,20 @@ Data source: Coello, F., Decorte, T., Janssens, I. et al. Global Crop-Specific F
 Website for downloading: 
 
 [Harvest area] 
-Unit: ha
+Unit: - 
+Range: [0, 1], the percentage of the area of each pixel
 Naming format: 
-    1 - 
+    "Crop_Year.tiff"
 Temporal scale: 1961 - 2019 Annual
 Spatial scale: global, 5arcmin
-Data format: 
+Data format: .tiff
 Data source: Coello, F., Decorte, T., Janssens, I. et al. Global Crop-Specific Fertilization Dataset from 1961–2019. Sci Data 12, 40 (2025). https://doi.org/10.1038/s41597-024-04215-x
 Website for downloading: 
 
 ----------------------Transformed data------------
 [Inorganic P application rate] 
-   1 - P_inorg_app_rate [kg P / ha harvest area]
-   2 - P2O5_inorg_app_rate [kg P2O5 / ha harvest area]
+   1 - P_inorg_app_rate [kg / ha harvest area]
+   2 - P2O5_inorg_app_rate [kg / ha harvest area]
 Temporal scale: annual, 1961-2019
 Spatial scale: Global, 0.5 degree
 Data format: .nc

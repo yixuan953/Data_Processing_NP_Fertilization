@@ -14,6 +14,11 @@ input_path = '/lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/P_In
 process_path = '/lustre/nobackup/WUR/ESG/zhou111/Data/Fertilization/P_Fert_Inorg_1961-2019/HA_5arcmin'
 output_path = '/lustre/nobackup/WUR/ESG/zhou111/Data/Fertilization/P_Fert_Inorg_1961-2019/HA_05d'
 tiff_files = glob.glob(os.path.join(input_path,'*.tiff'))
+area_file = '/lustre/nobackup/WUR/ESG/zhou111/Data/Raw/General/pixel_area_ha_5arcmin.tiff'
+with rasterio.open(area_file) as src1:
+    area_5arcmin = src1.read(1)  # Read first band
+    meta = src1.meta  # Copy metadata
+
 
 # # Get the meta, lon, and lat from one example data
 with rasterio.open(tiff_files[0]) as src_examp:
@@ -23,6 +28,7 @@ with rasterio.open(tiff_files[0]) as src_examp:
 
 # # Create an empty data array
 data = np.empty((len(years), len(lat), len(lon)), dtype=np.float32)
+area = np.empty((len(years), len(lat), len(lon)), dtype=np.float32)
 
 # # Read the value from each .tiff file, and save thme in .nc format
 for crop in crop_types:
@@ -31,9 +37,10 @@ for crop in crop_types:
         i = year-1961
         with rasterio.open(f) as src:
             data[i, :, :] = src.read(1)
+            area[i, :, :] = data[i, :, :] * area_5arcmin
 
     ds = xr.Dataset(
-        {"HA": (["year", "lat", "lon"], data)},
+        {"HA": (["year", "lat", "lon"], area)},
          coords={"year": years, "lat": lat, "lon": lon}
         )
 
