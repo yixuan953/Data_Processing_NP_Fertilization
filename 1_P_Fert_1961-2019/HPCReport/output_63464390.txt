@@ -1,0 +1,8 @@
+P application rate for Rice has been calculated and saved
+P2O5 application rate for Rice has been calculated and saved
+P application rate for Soybean has been calculated and saved
+P2O5 application rate for Soybean has been calculated and saved
+P application rate for Wheat has been calculated and saved
+P2O5 application rate for Wheat has been calculated and saved
+P application rate for Maize has been calculated and saved
+P2O5 application rate for Maize has been calculated and saved

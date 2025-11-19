@@ -8,7 +8,7 @@ input_file1 = "/lustre/nobackup/WUR/ESG/zhou111/Data/Fertilization/NP_Fert_Res/R
 output_dir = "/lustre/nobackup/WUR/ESG/zhou111/Data/Fertilization/NP_Fert_Res"
 
 StudyAreas = ["Yangtze"] # ["Rhine", "Yangtze", "LaPlata", "Indus"] 
-crop_types = ["mainrice"] # ["maize","mainrice","secondrice","soybean","winterwheat","springwheat"] 
+crop_types = ["maize","mainrice","secondrice","soybean","winterwheat"] # ["maize","mainrice","secondrice","soybean","winterwheat","springwheat"] 
 
 for StudyArea in StudyAreas:
     for crop in crop_types:

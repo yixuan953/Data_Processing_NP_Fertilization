@@ -1,0 +1,24 @@
+Processing .h5 file: /lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Maize_1961-2020.h5
+Residue N input of /lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Maize_1961-2020.h5 have been summed up
+Residue_N_fert shape: (60, 4320, 2160)
+Expected shape: (60, 2160, 4320)
+Fixing dimension order...
+/lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Maize_1961-2020.h5 has been successfully tranformed to .nc
+Processing .h5 file: /lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Rice_1961-2020.h5
+Residue N input of /lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Rice_1961-2020.h5 have been summed up
+Residue_N_fert shape: (60, 4320, 2160)
+Expected shape: (60, 2160, 4320)
+Fixing dimension order...
+/lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Rice_1961-2020.h5 has been successfully tranformed to .nc
+Processing .h5 file: /lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Wheat_1961-2020.h5
+Residue N input of /lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Wheat_1961-2020.h5 have been summed up
+Residue_N_fert shape: (60, 4320, 2160)
+Expected shape: (60, 2160, 4320)
+Fixing dimension order...
+/lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Wheat_1961-2020.h5 has been successfully tranformed to .nc
+Processing .h5 file: /lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Soybean_1961-2020.h5
+Residue N input of /lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Soybean_1961-2020.h5 have been summed up
+Residue_N_fert shape: (60, 4320, 2160)
+Expected shape: (60, 2160, 4320)
+Fixing dimension order...
+/lustre/nobackup/WUR/ESG/zhou111/Data/Raw/Nutri/Fertilization/N_all_fert_h5/N_application_rate_Soybean_1961-2020.h5 has been successfully tranformed to .nc

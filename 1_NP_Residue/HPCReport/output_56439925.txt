@@ -1,0 +1,8 @@
+Residue N input amount for Maize has been saved
+Residue N input amount for Rice has been saved
+Residue N input amount for Soybean has been saved
+Residue N input amount for Wheat has been saved
+N Residue fertilizer application rate for Maize has been calculated and saved
+N Residue fertilizer application rate for Rice has been calculated and saved
+N Residue fertilizer application rate for Soybean has been calculated and saved
+N Residue fertilizer application rate for Wheat has been calculated and saved

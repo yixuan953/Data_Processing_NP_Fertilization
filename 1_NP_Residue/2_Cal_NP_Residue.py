@@ -7,7 +7,7 @@ import xarray as xr
 import numpy as np
 
 StudyAreas = ["Yangtze"] # ["Rhine", "Yangtze", "LaPlata", "Indus"] 
-crop_types = ["mainrice"] # ["maize","mainrice","secondrice","soybean","winterwheat","springwheat"] 
+crop_types = ["maize","mainrice","secondrice","soybean","winterwheat"] # ["maize","mainrice","secondrice","soybean","winterwheat","springwheat"] 
 output_dir = "/lustre/nobackup/WUR/ESG/zhou111/Data/Fertilization/NP_Fert_Res/"
 
 for StudyArea in StudyAreas:
